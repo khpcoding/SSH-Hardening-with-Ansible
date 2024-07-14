@@ -25,3 +25,4 @@ The `harden_ssh.yml` file is the Ansible playbook that performs the SSH hardenin
 ```sh
 git clone https://github.com/yourusername/ssh-hardening.git
 cd ssh-hardening
+ansible-playbook -i hosts harden_ssh.yml
